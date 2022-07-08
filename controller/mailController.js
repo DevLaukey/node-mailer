@@ -22,6 +22,7 @@ exports.sendEmail = async (req, res) => {
         filename: "invitation.ics",
         method: "request",
         content: content,
+        path: "./myevents.ics",
       },
     };
 
